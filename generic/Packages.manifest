@@ -1,0 +1,1832 @@
+Package: 3ginfo-lite
+Version: 20190418
+Depends: libc, comgt
+Source: /home/neo/wrt-project/custom-feeds/luci-app-3ginfo/3ginfo
+SourceName: 3ginfo-lite
+Section: net
+SourceDateEpoch: 1648826929
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 15836
+Filename: 3ginfo-lite_20190418_all.ipk
+Size: 16619
+SHA256sum: 61c05f02c39a77a070e33e792c25df6e04cb4692b9e476a52fa5445ccbbc8683
+Description:  Information about status of 3G/4G modem (lite version)
+
+Package: 3ginfo-qmisignal
+Version: 20190418
+Depends: libc, uqmi, uhttpd
+Source: /home/neo/wrt-project/custom-feeds/luci-app-3ginfo/3ginfo
+SourceName: 3ginfo-qmisignal
+Section: net
+SourceDateEpoch: 1648826929
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 2262
+Filename: 3ginfo-qmisignal_20190418_all.ipk
+Size: 3048
+SHA256sum: 823d210777b9db6ea386200d3c4b01770c1f36408736be155f2ae115e5158253
+Description:  Information about status of 3G/4G modem (qmi signal)
+
+Package: 3ginfo-text
+Version: 20190418
+Depends: libc, comgt
+Source: /home/neo/wrt-project/custom-feeds/luci-app-3ginfo/3ginfo
+SourceName: 3ginfo-text
+Section: net
+SourceDateEpoch: 1648826929
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 23043
+Filename: 3ginfo-text_20190418_all.ipk
+Size: 23943
+SHA256sum: 9fdc7cb8cbc489cad9751780f1a4c975e6e26a2e865bb5d8703eda9f0a9e4b5e
+Description:  Information about status of 3G/4G modem (text version)
+
+Package: 3ginfo
+Version: 20190418
+Depends: libc, 3ginfo-text, uhttpd
+Source: /home/neo/wrt-project/custom-feeds/luci-app-3ginfo/3ginfo
+SourceName: 3ginfo
+Section: net
+SourceDateEpoch: 1648826929
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 11205
+Filename: 3ginfo_20190418_all.ipk
+Size: 11984
+SHA256sum: 0dc84c1c1ce09e73728c66d929aec22bf5271c73066c791ea0c649c11f6822a5
+Description:  Information about status of 3G/4G modem
+
+Package: autosamba
+Version: 1-12
+Depends: libc, luci-app-samba4, wsdd2
+Source: /home/neo/wrt-project/custom-feeds/autosamba
+SourceName: autosamba
+Section: opt
+SourceDateEpoch: 1646110396
+Maintainer: Lean
+Architecture: all
+Installed-Size: 1208
+Filename: autosamba_1-12_all.ipk
+Size: 1972
+SHA256sum: a492e5e8bf7b947b0168f0c7963c6683d94e6a41f1f112bea98382348c6ee9ab
+Description:  A hotplug script to config Samba share automatically.
+
+Package: cellled
+Version: 0.0.1-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/cellled
+SourceName: cellled
+Section: opt
+SourceDateEpoch: 1666237705
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1882
+Filename: cellled_0.0.1-1_all.ipk
+Size: 2641
+SHA256sum: 253b2d0501b37c97443dbee03a6050d7e4d8e064d50be8ed4a43633525aa8edf
+Description:  Indicate LED cellular signal signal strength.
+
+Package: ext-rspeedtest
+Version: 1.000-1
+Depends: libc, httping, curl, coreutils, coreutils-date, speedtestpp
+Source: /home/neo/wrt-project/custom-feeds/ext-rspeedtest
+SourceName: ext-rspeedtest
+Section: utils
+SourceDateEpoch: 1646110396
+Maintainer: Created by DM/makefile by Cobia@whirlpool
+Architecture: all
+Installed-Size: 44235
+Filename: ext-rspeedtest_1.000-1_all.ipk
+Size: 45148
+SHA256sum: 330ecb6a7504ad1b26592f712542d118f877776d8b4b7678e33e4d7024a12d9a
+Description:  Helper scripts to enable ROOter SpeedTest
+
+Package: ext-speedtest
+Version: 1.000-1
+Depends: libc, ext-rspeedtest
+Source: /home/neo/wrt-project/custom-feeds/ext-speedtest
+SourceName: ext-speedtest
+Section: utils
+SourceDateEpoch: 1646110396
+Maintainer: Created by DM/makefile by Cobia@whirlpool
+Architecture: all
+Installed-Size: 19208
+Filename: ext-speedtest_1.000-1_all.ipk
+Size: 19967
+SHA256sum: b848b816b92aedf175c05bf32df34e865c343d7fe0ac48ffae2c113a1f0f5749
+Description:  Helper scripts to enable OpenSpeedTest
+
+Package: fscheck
+Version: 1.000-1
+Depends: libc, e2fsprogs
+Source: /home/neo/wrt-project/custom-feeds/fscheck
+SourceName: fscheck
+Section: utils
+SourceDateEpoch: 1646110396
+Maintainer: Created by DM/makefile by Cobia@whirlpool
+Architecture: all
+Installed-Size: 2153
+Filename: fscheck_1.000-1_all.ipk
+Size: 2897
+SHA256sum: 5e9b8010632d31c7889b29699b91638ea950fc57392cbd0a338b41bf77cf2188
+Description:  Helper scripts to install scripts for FSCheck
+
+Package: internet-detector
+Version: 0.6-0
+Depends: libc, lua, luci-lib-nixio, libuci-lua
+Source: /home/neo/wrt-project/custom-feeds/luci-app-internet-detector/internet-detector
+SourceName: internet-detector
+Section: net
+SourceDateEpoch: 1663680085
+Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
+Architecture: all
+Installed-Size: 8094
+Filename: internet-detector_0.6-0_all.ipk
+Size: 8979
+SHA256sum: ce4e941a77681376e99ca3b41adb7653ce24d0afd97cf8ffb0998602c34dece1
+Description:  Internet-detector is a small daemon
+ for checking Internet availability.
+ Written in Lua using the nixio library.
+
+Package: iptvhelper
+Version: 0.1.1-7
+Depends: libc, ipset, iptables
+Source: /home/neo/wrt-project/custom-feeds/iptvhelper
+SourceName: iptvhelper
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1646110396
+Maintainer: Shun Li <riverscn@gmail.com>
+Architecture: all
+Installed-Size: 1820
+Filename: iptvhelper_0.1.1-7_all.ipk
+Size: 2677
+SHA256sum: ded36dff7cff57ff4f45bd44153c43ca8ea8b8aa451baf77564886a169ff5ec7
+Description:  Scripts for configure IPTV easily
+
+Package: lua-neturl
+Version: 1.1-1-1
+Depends: libc, lua
+Source: /home/neo/wrt-project/custom-feeds/lua-neturl
+SourceName: lua-neturl
+License: MIT
+Section: lang
+SourceDateEpoch: 1646110396
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 4536
+Filename: lua-neturl_1.1-1-1_all.ipk
+Size: 5352
+SHA256sum: cc113bbdac5558968961c6b841ab3aea352eb4abfd358e53140cd30a75c182e6
+Description:  This small Lua library provides a few functions to parse URL with
+ querystring and build new URL easily.
+
+Package: luci-app-3ginfo-lite
+Version: 1.0.29-20221018
+Depends: libc, sms-tool, comgt
+Source: /home/neo/wrt-project/custom-feeds/luci-app-3ginfo-lite/luci-app-3ginfo-lite
+SourceName: luci-app-3ginfo-lite
+Section: luci
+SourceDateEpoch: 1666106313
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 101525
+Filename: luci-app-3ginfo-lite_1.0.29-20221018_all.ipk
+Size: 102425
+SHA256sum: 5053c25ce1ba4371c52d4da0dd5038f3577429174df90c0d35926f0988cf620a
+Description:  LuCI panel for 3ginfo-lite
+ The package allows visualization of the parameters of a 
+ mobile Internet connection.
+
+Package: luci-app-3ginfo
+Version: 1.3.3
+Depends: libc, 3ginfo-text, luci-compat
+Source: /home/neo/wrt-project/custom-feeds/luci-app-3ginfo/luci-app-3ginfo
+SourceName: luci-app-3ginfo
+Section: luci
+SourceDateEpoch: 1648826929
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 62717
+Filename: luci-app-3ginfo_1.3.3_all.ipk
+Size: 63643
+SHA256sum: c7dadc0f5d337f42a4931bc16d0385e57bceac3cdb8c5f5b14d2628c1c77225e
+Description:  LuCI panel for 3ginfo
+
+Package: luci-app-adbyby-plus
+Version: 2.0
+Depends: libc, adbyby, uclient-fetch, ipset, dnsmasq-full
+Source: /home/neo/wrt-project/custom-feeds/luci-app-adbyby-plus
+SourceName: luci-app-adbyby-plus
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 9712
+Filename: luci-app-adbyby-plus_2.0_all.ipk
+Size: 10618
+SHA256sum: 1fab0fbf5a06f4eca630ae9ca5b10b5c3eb071678e66aad082bb1f84d57171d1
+Description:  LuCI support for Adbyby
+
+Package: luci-app-adguardhome
+Version: 220512.49736
+Depends: libc, ca-certs, curl, wget-ssl, adguardhome
+Source: /home/neo/wrt-project/custom-feeds/luci-app-adguardhome
+SourceName: luci-app-adguardhome
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 88970
+Filename: luci-app-adguardhome_220512.49736_all.ipk
+Size: 90166
+SHA256sum: ef5a43b09ed94017e124e28e369a77a25954923ad122f6170058bf1abdff9262
+Description:  LuCI support for AdGuardHome
+
+Package: luci-app-amlogic
+Version: 3.1.135
+Depends: libc, luci, luci-lib-nixio, block-mount, blkid, parted, dosfstools, e2fsprogs, lsblk, pv, losetup, uuidgen, bash, perl, fdisk
+Source: /home/neo/wrt-project/custom-feeds/luci-app-amlogic/luci-app-amlogic
+SourceName: luci-app-amlogic
+License: GPL-2.0 License
+Section: luci
+SourceDateEpoch: 1666252208
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 77124
+Filename: luci-app-amlogic_3.1.135_all.ipk
+Size: 78228
+SHA256sum: 9c340abf43f00780c762aa4fe01da9a0cdaef48a5b50e0c3943ddb75f022b028
+Description:  LuCI support for Amlogic, Allwinner and Rockchip related boxs
+
+Package: luci-app-argon-config
+Version: 0.9
+Depends: libc, luci-compat
+Source: /home/neo/wrt-project/custom-feeds/luci-app-argon-config
+SourceName: luci-app-argon-config
+Section: luci
+SourceDateEpoch: 1651712066
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3606
+Filename: luci-app-argon-config_0.9_all.ipk
+Size: 4502
+SHA256sum: 8f6ab9ae24aef9a9c64914205c7b33d038c10fd970738cd0cdca9988a2b7b2aa
+Description:  LuCI page for Argon Config
+
+Package: luci-app-atinout-mod
+Version: 1.3.3-20220817
+Depends: libc, atinout, luci-compat
+Source: /home/neo/wrt-project/custom-feeds/luci-app-atinout-mod/luci-app-atinout-mod
+SourceName: luci-app-atinout-mod
+Section: luci
+SourceDateEpoch: 1660737508
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 4060
+Filename: luci-app-atinout-mod_1.3.3-20220817_all.ipk
+Size: 4947
+SHA256sum: 1bbb5b3c8a96e288db4165dd73ca60bcda38ec3e468bdc044e8cad67ca55be8a
+Description:  Web UI for atinout
+
+Package: luci-app-autoreboot
+Version: 1.0
+Depends: libc, luci
+Source: /home/neo/wrt-project/custom-feeds/luci-app-autoreboot
+SourceName: luci-app-autoreboot
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1299
+Filename: luci-app-autoreboot_1.0_all.ipk
+Size: 2145
+SHA256sum: f96ec20db0d8b7459866a10b3d65565b316b95afcc69be50ee186c4f6ebb1c5a
+Description:  LuCI support for Scheduled Reboot
+
+Package: luci-app-autorepeater
+Version: 0.2.2-2
+Depends: libc, iwinfo, jshn, jsonfilter
+Source: /home/neo/wrt-project/custom-feeds/luci-app-autorepeater
+SourceName: luci-app-autorepeater
+License: GPLv3
+LicenseFiles: LICENSE
+Section: luci
+SourceDateEpoch: 1632389308
+Maintainer: peter-tank
+Architecture: all
+Installed-Size: 45470
+Filename: luci-app-autorepeater_0.2.2-2_all.ipk
+Size: 46690
+SHA256sum: 023b4d0379dc1f45ecca5ddab47bd710c1eb3424b7929f970ea80cb946ee36e5
+Description:  LuCI Support for AutoRepeater.
+
+Package: luci-app-autotimeset
+Version: 1.5-20220426
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-autotimeset
+SourceName: luci-app-autotimeset
+Section: luci
+SourceDateEpoch: 1665798429
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1966
+Filename: luci-app-autotimeset_1.5-20220426_all.ipk
+Size: 2847
+SHA256sum: a5105bf9077af02ceba79b4881e3865b7e7456c3c9210b8e298314cda09209b2
+Description:  LuCI support for Scheduled Time setting
+
+Package: luci-app-bypass
+Version: 1.2
+Depends: libc, ipset, kmod-ipt-nat, ip-full, iptables-mod-tproxy, lua-neturl, dnsmasq-full, smartdns, coreutils, coreutils-base64, curl, tcping, chinadns-ng, lua, luci-compat, luci-lib-ipkg, unzip, lua-maxminddb, shadowsocks-libev-ss-server, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, v2ray-plugin, xray-core, trojan-plus, naiveproxy, kcptun-client, hysteria, redsocks2, microsocks
+Source: /home/neo/wrt-project/custom-feeds/openwrt-bypass/luci-app-bypass
+SourceName: luci-app-bypass
+Section: luci
+SourceDateEpoch: 1665426161
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2647051
+Filename: luci-app-bypass_1.2_all.ipk
+Size: 2465203
+SHA256sum: 0ea6dbb528eba131060840cf28c5af2b75c9ef35a65f594cbc1fdc78f503a53d
+Description:  SS/SSR/Xray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-cellled
+Version: 0.0.1
+Depends: libc, cellled, luci-compat
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/luci/applications/luci-app-cellled
+SourceName: luci-app-cellled
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1666237705
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1736
+Filename: luci-app-cellled_0.0.1_all.ipk
+Size: 2592
+SHA256sum: cf18d3dc5a6772a45b3e9a93f56abf356bc9ed8a335bc3a819c970417b013281
+Description:  LuCI app for celled
+
+Package: luci-app-cpu-perf
+Version: 0.4-0
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-cpu-perf
+SourceName: luci-app-cpu-perf
+License: MIT
+Section: luci
+SourceDateEpoch: 1653581197
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 6522
+Filename: luci-app-cpu-perf_0.4-0_all.ipk
+Size: 7435
+SHA256sum: 89c233be4005c36e1a910af629b9b0dfa0f97f426bdb8c8a4c929ecfc1bfc622
+Description:  CPU performance information and management for LuCI
+
+Package: luci-app-cpu-status-mini
+Version: 0.1-4
+Depends: libc, luci-mod-admin-full
+Source: /home/neo/wrt-project/custom-feeds/luci-app-cpu-status-mini
+SourceName: luci-app-cpu-status-mini
+License: MIT
+Section: luci
+SourceDateEpoch: 1653778516
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1087
+Filename: luci-app-cpu-status-mini_0.1-4_all.ipk
+Size: 1985
+SHA256sum: 042fb2791ee08c4f98f42a6a5a244ed32b4366479dff8f985744113874bc782f
+Description:  CPU utilization info for the LuCI status page
+
+Package: luci-app-cpu-status
+Version: 0.4-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-cpu-status
+SourceName: luci-app-cpu-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1653778452
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1445
+Filename: luci-app-cpu-status_0.4-1_all.ipk
+Size: 2288
+SHA256sum: 9019f50085a957dfbf3919c4ae627e898b280bb9631c25ddb488fee3d8933b6c
+Description:  CPU utilization info for the LuCI status page
+
+Package: luci-app-disableipv6
+Version: 2022.08.12
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-disableipv6
+SourceName: luci-app-disableipv6
+Section: luci
+SourceDateEpoch: 1660289899
+Maintainer: NueXini
+Architecture: all
+Installed-Size: 1293
+Filename: luci-app-disableipv6_2022.08.12_all.ipk
+Size: 2158
+SHA256sum: 476fc4cb474dfee567dcc7474ceab127586e5e4c44c56c74ff528ea420f2dbe3
+Description:  LuCI Support for disableipv6
+
+Package: luci-app-diskman
+Version: v0.2.11-beta
+Depends: libc, e2fsprogs, parted, smartmontools, blkid, btrfs-progs, lsblk, mdadm, mdadm, kmod-md-raid456
+Source: /home/neo/wrt-project/custom-feeds/luci-app-diskman
+SourceName: luci-app-diskman
+License: AGPL-3.0
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
+Architecture: all
+Installed-Size: 23434
+Filename: luci-app-diskman_v0.2.11-beta_all.ipk
+Size: 24293
+SHA256sum: 0c965ff83644eec551676dd46b348023acc358a575d764ef5797448855072474
+Description:  Disk Manager interface for LuCI
+
+Package: luci-app-disks-info
+Version: 0.4-2
+Depends: libc, fdisk, smartmontools, smartmontools-drivedb
+Source: /home/neo/wrt-project/custom-feeds/luci-app-disks-info
+SourceName: luci-app-disks-info
+License: MIT
+Section: luci
+SourceDateEpoch: 1663627469
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 6634
+Filename: luci-app-disks-info_0.4-2_all.ipk
+Size: 7570
+SHA256sum: eacee171e67800ea6e9c68fcc54a0b265799433341a133a644c017ae2111cd24
+Description:  Information about connected disk devices (partitions, filesystems, SMART).
+
+Package: luci-app-dnsfilter
+Version: 1.0
+Depends: libc, curl, dnsmasq-full, ipset
+Source: /home/neo/wrt-project/custom-feeds/luci-app-dnsfilter
+SourceName: luci-app-dnsfilter
+License: GPLv2
+Section: luci
+SourceDateEpoch: 1662784504
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 8154
+Filename: luci-app-dnsfilter_1.0_all.ipk
+Size: 8937
+SHA256sum: a6d17dc4dad800a5d55bfe2cb9ea8c40a6d0c1e485db93800033dab48c4dad24
+Description:  LuCI support for DNSFilter
+
+Package: luci-app-easymesh
+Version: 2.0
+Depends: libc, kmod-cfg80211, batctl-default, kmod-batman-adv, wpad-mesh-openssl, dawn
+Source: /home/neo/wrt-project/custom-feeds/luci-app-easymesh
+SourceName: luci-app-easymesh
+Section: luci
+SourceDateEpoch: 1650286011
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3793
+Filename: luci-app-easymesh_2.0_all.ipk
+Size: 4694
+SHA256sum: 75f5c283a79407ac62c42b64f5752a3c84202176c43219a71c9e68116520a35a
+Description:  LuCI Support for easymesh
+
+Package: luci-app-eqos
+Version: git-20.112.09442-85f9b37
+Depends: libc, luci-base, tc, kmod-sched-core, kmod-ifb
+Source: /home/neo/wrt-project/custom-feeds/luci-app-eqos
+SourceName: luci-app-eqos
+Section: luci
+SourceDateEpoch: 1587436642
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2188
+Filename: luci-app-eqos_git-20.112.09442-85f9b37_all.ipk
+Size: 3110
+SHA256sum: 145ff37a45fea5536c1b3b5cdb2038fb2f02a43fdfcc95f1775143667ff7be91
+Description:  EQOS - LuCI interface
+
+Package: luci-app-fileassistant
+Version: 1.1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-fileassistant
+SourceName: luci-app-fileassistant
+Section: luci
+SourceDateEpoch: 1636637798
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 8633
+Filename: luci-app-fileassistant_1.1_all.ipk
+Size: 9491
+SHA256sum: ec9e95af0f83cb63a381ea0adc95ba7cad1263b0b9981de359a0cf1867d92159
+Description:  LuCI support for Fileassistant
+
+Package: luci-app-filetransfer
+Version: 1
+Depends: libc, luci-lib-fs
+Source: /home/neo/wrt-project/custom-feeds/luci-app-filetransfer
+SourceName: luci-app-filetransfer
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2700
+Filename: luci-app-filetransfer_1_all.ipk
+Size: 3586
+SHA256sum: 81d230573ea715b7fbe6e5f908d23cd7dbe39f8dc34f6b0852977b31f5afe625
+Description:  LuCI page for IPK upload
+
+Package: luci-app-gpoint
+Version: 1.6.0
+Depends: libc, lua, curl, lua-rs232, luasocket, iwinfo, libiwinfo-lua, lua-bit32
+Source: /home/neo/wrt-project/custom-feeds/luci-app-gpoint
+SourceName: luci-app-gpoint
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1666009168
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 46098
+Filename: luci-app-gpoint_1.6.0_all.ipk
+Size: 47024
+SHA256sum: 022d3661b77073ee60c3292dabaf4d6253a092aa75f54e2215e296185a687985
+Description:  GNSS Information dashboard for 3G/LTE dongle
+
+Package: luci-app-interfaces-statistics
+Version: 0.4-4
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-interfaces-statistics
+SourceName: luci-app-interfaces-statistics
+License: MIT
+Section: luci
+SourceDateEpoch: 1645717652
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2104
+Filename: luci-app-interfaces-statistics_0.4-4_all.ipk
+Size: 2963
+SHA256sum: d75ed07289e3a4ef1bc66c80d49bac8c8c97abfd6fe4e35d35cf2eb09016b5c3
+Description:  Network interfaces statistics
+
+Package: luci-app-internet-detector
+Version: 0.6-0
+Depends: libc, internet-detector
+Source: /home/neo/wrt-project/custom-feeds/luci-app-internet-detector/luci-app-internet-detector
+SourceName: luci-app-internet-detector
+Section: luci
+SourceDateEpoch: 1663680085
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 7322
+Filename: luci-app-internet-detector_0.6-0_all.ipk
+Size: 8204
+SHA256sum: 55e4335db3feed7ef6fd3e062d3a9e9593977b82f561b27f84cf045ba0d09824
+Description:  LuCI support for internet-detector
+
+Package: luci-app-iperf3-server
+Version: 2.0
+Depends: libc, iperf3
+Source: /home/neo/wrt-project/custom-feeds/luci-app-iperf3-server
+SourceName: luci-app-iperf3-server
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2285
+Filename: luci-app-iperf3-server_2.0_all.ipk
+Size: 3161
+SHA256sum: d51adf181f79d1707a3cb02e538b5a1d50c9e760ad93c9884f3ac1a4d45c7a35
+Description:  LuCI support for iPerf3
+
+Package: luci-app-iptvhelper
+Version: 210911.50641
+Depends: libc, luci-compat, iptvhelper
+Source: /home/neo/wrt-project/custom-feeds/luci-app-iptvhelper
+SourceName: luci-app-iptvhelper
+License: GPL-3.0
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1236
+Filename: luci-app-iptvhelper_210911.50641_all.ipk
+Size: 2149
+SHA256sum: 3c7579f0ff5398a783d2f005e8945319e033d5f810bbde65d50ef3c0312a11e8
+Description:  LuCI support for iptvhelper
+
+Package: luci-app-libernet-bin
+Version: 2.0
+Depends: libc, coreutils, coreutils-stdbuf, jq, ip-full, kmod-tun, openssh-client, https-dns-proxy, php7, php7-cgi, php7-mod-json, php7-mod-session, python3, httping, stunnel, stubby, getdns, badvpn, corkscrew, simple-obfs, sshpass, trojan-go, v2ray-core, bash, curl, librt, libpthread, screen, shadowsocks-libev-ss-local, openvpn-openssl
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-libernet-bin
+SourceName: luci-app-libernet-bin
+Section: luci
+SourceDateEpoch: 1663525284
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 653505
+Filename: luci-app-libernet-bin_2.0_all.ipk
+Size: 652705
+SHA256sum: b767588d9a424b000d0c841766552151526204ceec9032eeddba7590616a7d1d
+Description:  LuCI version of Libernet App, this is original version included libernet binaries.
+
+Package: luci-app-libernet-plus
+Version: 2.0
+Depends: libc, coreutils, coreutils-stdbuf, jq, ip-full, kmod-tun, openssh-client, https-dns-proxy, php7, php7-cgi, php7-mod-json, php7-mod-session, python3, httping, stunnel, stubby, getdns, badvpn, corkscrew, simple-obfs, sshpass, trojan-go, v2ray-core, bash, curl, librt, libpthread, screen, shadowsocks-libev-ss-local, openvpn-openssl
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-libernet-plus
+SourceName: luci-app-libernet-plus
+Section: luci
+SourceDateEpoch: 1663525284
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2080774
+Filename: luci-app-libernet-plus_2.0_all.ipk
+Size: 2076761
+SHA256sum: d5809508528c41f8057dada72a3b8eb00375c7222d9e6789234ba5df06392201
+Description:  LuCI version of Libernet, but with some mods and additions.
+
+Package: luci-app-lite-watchdog
+Version: 1.0.4-20221008
+Depends: libc, sms-tool
+Source: /home/neo/wrt-project/custom-feeds/luci-app-lite-watchdog
+SourceName: luci-app-lite-watchdog
+Section: luci
+SourceDateEpoch: 1665226733
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 4594
+Filename: luci-app-lite-watchdog_1.0.4-20221008_all.ipk
+Size: 5480
+SHA256sum: 4b69d13fe9d80da9fe7eaa835395302034d6211adc6700c7d7af97db2493cfcf
+Description:  LuCI panel for lite-watchdog
+
+Package: luci-app-log
+Version: 0.6-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-log
+SourceName: luci-app-log
+License: MIT
+Section: luci
+SourceDateEpoch: 1663625921
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5796
+Filename: luci-app-log_0.6-1_all.ipk
+Size: 6658
+SHA256sum: 7c4c69a464dda8c7d1e5aae5f0fea2c3d8727288c71d246e9a96138695c56213
+Description:  Advanced syslog and kernel log (tail, search, etc)
+
+Package: luci-app-mikhmon4
+Version: 1.1
+Depends: libc, php7, php7-cgi, php7-mod-json, php7-mod-session, php7-fpm, php7-mod-curl, php7-mod-dom, php7-mod-filter, php7-mod-gettext, php7-mod-gmp, php7-mod-iconv, php7-mod-mbstring, php7-mod-opcache, php7-mod-pcntl, php7-mod-pdo, php7-mod-zip, zoneinfo-core, zoneinfo-simple
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-mikhmon4
+SourceName: luci-app-mikhmon4
+Section: luci
+SourceDateEpoch: 1663525284
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1537014
+Filename: luci-app-mikhmon4_1.1_all.ipk
+Size: 1537213
+SHA256sum: 6c1fb0d803ab9563b02422c39e9ac3b44dc5ae81d2df5cd813c7d43524e3af8f
+Description:  Mikrotik monitor package for OpenWrt by laksa19.
+
+Package: luci-app-mikhmon
+Version: 1.6
+Depends: libc, php7, php7-cgi, php7-mod-json, php7-mod-session, php7-fpm, php7-mod-curl, php7-mod-dom, php7-mod-gettext, php7-mod-gmp, php7-mod-iconv, php7-mod-mbstring, php7-mod-opcache, php7-mod-pcntl, php7-mod-pdo, php7-mod-zip, zoneinfo-core, zoneinfo-simple
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-mikhmon
+SourceName: luci-app-mikhmon
+Section: luci
+SourceDateEpoch: 1663525284
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1057561
+Filename: luci-app-mikhmon_1.6_all.ipk
+Size: 1058411
+SHA256sum: 83487cd151957bfc79b437dcc6f09ecb9d58484f0ab73c49fc7da9f8f2036565
+Description:  Mikrotik monitor package for OpenWrt by laksa19.
+
+Package: luci-app-mmconfig
+Version: 0.0.5-1
+Depends: libc, modemmanager, luci-compat
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/luci/applications/luci-app-mmconfig
+SourceName: luci-app-mmconfig
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1666237705
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3104
+Filename: luci-app-mmconfig_0.0.5-1_all.ipk
+Size: 4007
+SHA256sum: 0b19e41a7a7e9f3b502dd82a4f04ab974584edacd6295a383175fdae8cfd74f5
+Description:  Configrure modem bands via mmcli utility
+
+Package: luci-app-modemband
+Version: 1.0.16-20221008
+Depends: libc, sms-tool, modemband
+Source: /home/neo/wrt-project/custom-feeds/luci-app-modemband/luci-app-modemband
+SourceName: luci-app-modemband
+Section: luci
+SourceDateEpoch: 1665226299
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5497
+Filename: luci-app-modemband_1.0.16-20221008_all.ipk
+Size: 6378
+SHA256sum: d599ea501b621f7f41f10d06c5b4a918d6e37964133b77e2c6a64b03a3075253
+Description:  LuCI panel for modemband
+
+Package: luci-app-modeminfo
+Version: 0.3.0-2
+Depends: libc, luci-compat, modeminfo
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/luci/applications/luci-app-modeminfo
+SourceName: luci-app-modeminfo
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1666237705
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5279
+Filename: luci-app-modeminfo_0.3.0-2_all.ipk
+Size: 6135
+SHA256sum: aba68a32dc8730fed8ee2c35da09e577a725d883ea25425a5394f821bdef937c
+Description:  Information dashboard for 3G/LTE dongle
+
+Package: luci-app-mulimiter
+Version: 1.0
+Depends: libc, iptables-mod-hashlimit, iptables-mod-iprange, php7, php7-cgi, php7-mod-session
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-mulimiter
+SourceName: luci-app-mulimiter
+Section: luci
+SourceDateEpoch: 1663525284
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 60959
+Filename: luci-app-mulimiter_1.0_all.ipk
+Size: 62112
+SHA256sum: b260b5bd5bc9f0d96fd02c751e00d5b6ca207c1481681e4d7a9b8a55323d8a97
+Description:  LuCI version of MulImiter - OpenWrt bandwidth limiter through iptables firewall with PHP GUI.
+
+Package: luci-app-myxllite
+Version: 1.1
+Depends: libc, curl, php7
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-myxllite
+SourceName: luci-app-myxllite
+Section: luci
+SourceDateEpoch: 1663525284
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 298317
+Filename: luci-app-myxllite_1.1_all.ipk
+Size: 298643
+SHA256sum: 61e1e01ed804e2f02f57a7ec5b7c7734b1a5c34a07f91f2910992494a4bb71d2
+Description:  LuCI App for XL AXIATA quota checker and viewer (including unlimited FUP).
+
+Package: luci-app-netdata
+Version: 1.1
+Depends: libc, netdata
+Source: /home/neo/wrt-project/custom-feeds/luci-app-netdata
+SourceName: luci-app-netdata
+Section: luci
+SourceDateEpoch: 1666084175
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 191623
+Filename: luci-app-netdata_1.1_all.ipk
+Size: 192607
+SHA256sum: d6c6a065cf1545b55e1b21810bbcbbd29f9e6051df31b9f8a171816b7d7b4c3c
+Description:  LuCI support for Netdata
+
+Package: luci-app-netmon
+Version: 1.2
+Depends: libc, php7, php7-cgi, php7-mod-session, zoneinfo-core, zoneinfo-asia, luci-app-tinyfm, netdata
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-netmon
+SourceName: luci-app-netmon
+Section: luci
+SourceDateEpoch: 1663525284
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2886
+Filename: luci-app-netmon_1.2_all.ipk
+Size: 4157
+SHA256sum: 9f5da069bc8d8aee45086e8fd9cd00ce00121a81f7d903380bd2ba5702582b9e
+Description:  LuCI Network Monitor
+ Simple network monitor using netdata package, with some addition sites.
+
+Package: luci-app-netmonitor
+Version: 2.0
+Depends: libc, netdata
+Source: /home/neo/wrt-project/custom-feeds/luci-app-netmonitor
+SourceName: luci-app-netmonitor
+License: Netdata
+Section: luci
+SourceDateEpoch: 1639069581
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 71641
+Filename: luci-app-netmonitor_2.0_all.ipk
+Size: 72618
+SHA256sum: dc3777b7849865376bd521fcdf566ee07d4d95154165d9465e88a4576e701c4f
+Description:  NetMonitor
+
+Package: luci-app-netspeedtest
+Version: 2.0.3
+Depends: libc, python3, iperf3, speedtest-web
+Source: /home/neo/wrt-project/custom-feeds/NetSpeedTest/luci-app-netspeedtest
+SourceName: luci-app-netspeedtest
+Section: luci
+SourceDateEpoch: 1666313546
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20773
+Filename: luci-app-netspeedtest_2.0.3_all.ipk
+Size: 21668
+SHA256sum: bb96e02a065cb6ea2584b96db9c03b572ca96659a95e62562210790bc1c0f8f0
+Description:  LuCI Support for netspeedtest
+
+Package: luci-app-oled
+Version: 1.0
+Depends: libc, i2c-tools, coreutils-nohup, libuci20130104
+Source: /home/neo/wrt-project/custom-feeds/luci-app-oled
+SourceName: luci-app-oled
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1631958789
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 16995
+Filename: luci-app-oled_1.0_all.ipk
+Size: 17913
+SHA256sum: 5f592e332dec6a565df4d21f7dcb352cc4322ecab67999e3862ede66f8040a8b
+Description:  LuCI luci-app-oled app
+
+Package: luci-app-openclash
+Version: 0.45.65-beta
+Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ipset, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Source: /home/neo/wrt-project/custom-feeds/luci-app-openclash
+SourceName: luci-app-openclash
+Section: opt
+SourceDateEpoch: 1646110396
+Maintainer: vernesong
+Architecture: all
+Installed-Size: 3921259
+Filename: luci-app-openclash_0.45.65-beta_all.ipk
+Size: 3904949
+SHA256sum: 932c919694d52f4916b3dc986ccda64d6eb91fc8691ae9c053d918f670d22716
+Description:  A LuCI support for clash
+
+Package: luci-app-openspeedtest
+Version: 1.3
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-openspeedtest
+SourceName: luci-app-openspeedtest
+Section: luci
+SourceDateEpoch: 1663525284
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 544
+Filename: luci-app-openspeedtest_1.3_all.ipk
+Size: 1389
+SHA256sum: 2754f4ee62f875d3ae2ee2c22528d20ca025996f9068ceb518f03401e5d4ea89
+Description:  LuCI version of OpenSpeedtest.org site.
+
+Package: luci-app-passwall2
+Version: 1.4
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, v2ray-geoip, v2ray-geosite, unzip, brook, hysteria, ip6tables-mod-nat, naiveproxy, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocks-rust-sslocal, shadowsocks-rust-ssserver, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, simple-obfs, v2ray-core, v2ray-plugin
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall2/luci-app-passwall2
+SourceName: luci-app-passwall2
+Section: luci
+SourceDateEpoch: 1666175037
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 183866
+Filename: luci-app-passwall2_1.4_all.ipk
+Size: 185106
+SHA256sum: 05672ff3308ae5501f5d67c85d88e8caffc9c70b72e3a2dc9a4f345542e8c22c
+Description:  LuCI support for PassWall 2
+
+Package: luci-app-passwall
+Version: 4.55
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dns2socks, dns2tcp, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, unzip, brook, chinadns-ng, haproxy, hysteria, naiveproxy, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocks-rust-sslocal, shadowsocks-rust-ssserver, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, simple-obfs, trojan-go, trojan-plus, v2ray-core, v2ray-plugin, xray-core, xray-plugin
+Source: /home/neo/wrt-project/custom-feeds/luci-app-passwall/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1666256530
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 972072
+Filename: luci-app-passwall_4.55_all.ipk
+Size: 972756
+SHA256sum: 29a5e96845333a4916d3978c613b6e65889e867167d206fa616191150622383f
+Description:  LuCI support for PassWall
+
+Package: luci-app-pingcontrol
+Version: 1.0.0-2
+Depends: libc, pingcontrol
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/luci/applications/luci-app-pingcontrol
+SourceName: luci-app-pingcontrol
+Section: luci
+SourceDateEpoch: 1666237705
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1360
+Filename: luci-app-pingcontrol_1.0.0-2_all.ipk
+Size: 2204
+SHA256sum: 0911e56c692c06cd8cf2e2f8147a26c067d9251e6100c192e24da0698f76c2cc
+Description:  LuCI network interface control
+
+Package: luci-app-poweroff
+Version: 20200726
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-poweroff
+SourceName: luci-app-poweroff
+Section: luci
+SourceDateEpoch: 1602359101
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1260
+Filename: luci-app-poweroff_20200726_all.ipk
+Size: 2116
+SHA256sum: a6ae891364cd7432f13b79da376738a8af200354d87f013e2d0a3a7ae6b3c6fe
+Description:  LuCI Support of PowerOff Router
+
+Package: luci-app-ramfree
+Version: 1.0
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-ramfree
+SourceName: luci-app-ramfree
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 428
+Filename: luci-app-ramfree_1.0_all.ipk
+Size: 1260
+SHA256sum: 08a3b86e6b11640d210bb89251195232b1ce20c3aa043a268dccfaa17db5fd79
+Description:  LuCI support for ramfree
+
+Package: luci-app-rclone
+Version: 1.4.1
+Depends: libc, rclone-config, rclone-webui-react, rclone-ng
+Source: /home/neo/wrt-project/custom-feeds/luci-app-rclone
+SourceName: luci-app-rclone
+License: GPLv3.0+
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2325
+Filename: luci-app-rclone_1.4.1_all.ipk
+Size: 3230
+SHA256sum: 2906241cf677ebc97a85edbd3e853fe9dde992cee04902c44d1752a37bcd739f
+Description:  LuCI support for Rclone
+
+Package: luci-app-shortcutmenu
+Version: v0.0.5
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-shortcutmenu
+SourceName: luci-app-shortcutmenu
+License: AGPL-3.0
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1205
+Filename: luci-app-shortcutmenu_v0.0.5_all.ipk
+Size: 2073
+SHA256sum: ac8d6c3b602d39da0062d677a1b5f8577c94c108e3919a4b4bf283872411f90e
+Description:  LuCI Support for shortcutmenu
+
+Package: luci-app-shutdown
+Version: 210617.54234
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-shutdown
+SourceName: luci-app-shutdown
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1102
+Filename: luci-app-shutdown_210617.54234_all.ipk
+Size: 1953
+SHA256sum: ed6ac2eeda2c07885bb54a3c82a853bc6f1cc73cec80c994e86d7a59adf26c34
+Description:  LuCI Shutdown device app
+
+Package: luci-app-sms-tool
+Version: 1.9.5-20220816
+Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, luci-compat
+Source: /home/neo/wrt-project/custom-feeds/luci-app-sms-tool/luci-app-sms-tool
+SourceName: luci-app-sms-tool
+Section: luci
+SourceDateEpoch: 1664229061
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 21418
+Filename: luci-app-sms-tool_1.9.5-20220816_all.ipk
+Size: 22363
+SHA256sum: 14cfd6c00207de8573e913112eed0cbc323ad663f769db7b2f22895fe343e35c
+Description:  LuCI Support for sms_tool
+
+Package: luci-app-smstools3
+Version: 0.0.7-1
+Depends: libc, smstools3, iconv, luci-compat
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/luci/applications/luci-app-smstools3
+SourceName: luci-app-smstools3
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1666237705
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 6059
+Filename: luci-app-smstools3_0.0.7-1_all.ipk
+Size: 6967
+SHA256sum: 99297265b23b7ee0a7e5fad26652597f77bbaeed5149cdbb7a5251da755283d0
+Description:  Web UI for smstools3
+
+Package: luci-app-socat
+Version: 1.1-2021-10-30
+Depends: libc, socat, luci-compat
+Source: /home/neo/wrt-project/custom-feeds/luci-app-socat/luci-app-socat
+SourceName: luci-app-socat
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1635609177
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3932
+Filename: luci-app-socat_1.1-2021-10-30_all.ipk
+Size: 4756
+SHA256sum: 519d94b5f8fe711fd2e285a9cfeac47694703622455c83e522b810e3151c3512
+Description:  Web UI for socat
+
+Package: luci-app-speedtest-web
+Version: 1.0
+Depends: libc, speedtest-web
+Source: /home/neo/wrt-project/custom-feeds/luci-app-speedtest-web
+SourceName: luci-app-speedtest-web
+Section: luci
+SourceDateEpoch: 1638857884
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1083
+Filename: luci-app-speedtest-web_1.0_all.ipk
+Size: 1917
+SHA256sum: 7eae357d43882725424b1a67216b7ec8db4617bf11ac236ccc3e925dba9faaa5
+Description:  LuCI support for speedtest-web
+
+Package: luci-app-ssr-plus
+Version: 186
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch, curl, xray-core, kcptun-client, hysteria, ipt2socks, naiveproxy, redsocks2, shadowsocks-rust-sslocal, shadowsocks-rust-ssserver, simple-obfs, v2ray-plugin, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-server, trojan
+Source: /home/neo/wrt-project/custom-feeds/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 196531
+Filename: luci-app-ssr-plus_186_all.ipk
+Size: 196776
+SHA256sum: a3317699d76ec72364dcdd03a026bd7d99f905ba579b0d627394e4f1c999909f
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-tcpdump
+Version: 1.0
+Depends: libc, tcpdump
+Source: /home/neo/wrt-project/custom-feeds/luci-app-tcpdump
+SourceName: luci-app-tcpdump
+Section: luci
+SourceDateEpoch: 1562870672
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5134
+Filename: luci-app-tcpdump_1.0_all.ipk
+Size: 5953
+SHA256sum: 579b900045e2f0362cd075dc0bebe54ac032f54571b89632c482497b4df8b41e
+Description:  LuCI support for tcpdump
+
+Package: luci-app-telegrambot
+Version: 0.0.1
+Depends: libc, telegrambot
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/luci/applications/luci-app-telegrambot
+SourceName: luci-app-telegrambot
+License: GPLv3
+Section: luci
+SourceDateEpoch: 1666237705
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1227
+Filename: luci-app-telegrambot_0.0.1_all.ipk
+Size: 2098
+SHA256sum: 42a6b4fcd7e84b04be53a211cffdecdf32a1c92e0851ecda0ec5be20bf7be385
+Description:  TelegramBot simple webUI
+
+Package: luci-app-temp-status
+Version: 0.3-5
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-app-temp-status
+SourceName: luci-app-temp-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1652888597
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2041
+Filename: luci-app-temp-status_0.3-5_all.ipk
+Size: 2901
+SHA256sum: 6df052bd2fc4352cd8ed32717b1a1647118124288e6b37276867b98c6e5c9a62
+Description:  Temperature sensors data for the LuCI status page
+
+Package: luci-app-timecontrol
+Version: 1.1
+Depends: libc, luci-compat
+Source: /home/neo/wrt-project/custom-feeds/luci-app-timecontrol/luci-app-timecontrol
+SourceName: luci-app-timecontrol
+Section: luci
+SourceDateEpoch: 1628427958
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2792
+Filename: luci-app-timecontrol_1.1_all.ipk
+Size: 3650
+SHA256sum: e1c33adc843142395659db795214760b6e4b01a8085b7dfdd6b4e05fe34d54af
+Description:  LuCI support for Time Control
+
+Package: luci-app-tinyfm
+Version: 2.0
+Depends: libc, php7, php7-cgi, php7-mod-session, php7-mod-ctype, php7-mod-fileinfo, php7-mod-zip, php7-mod-iconv, php7-mod-mbstring, php7-mod-json, zoneinfo-asia
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-tinyfm
+SourceName: luci-app-tinyfm
+Section: luci
+SourceDateEpoch: 1663525284
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 424956
+Filename: luci-app-tinyfm_2.0_all.ipk
+Size: 424848
+SHA256sum: b0c194b89a73bcf005ed4fecb38ea85e9a35f24fa05734b53340334d748cf95f
+Description:  This is Tiny File Manager, but for LuCI OpenWrt.
+
+Package: luci-app-usb-printer
+Version: 1.0
+Depends: libc, p910nd, kmod-usb-printer
+Source: /home/neo/wrt-project/custom-feeds/luci-app-usb-printer
+SourceName: luci-app-usb-printer
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3175
+Filename: luci-app-usb-printer_1.0_all.ipk
+Size: 4044
+SHA256sum: b126840a7598f392ba750b158a81fdaa506d73d894012fc80e368235af08a1e5
+Description:  USB Printer Share via TCP/IP
+
+Package: luci-app-v2raya
+Version: git-22.268.28988-935481d
+Depends: libc, v2raya
+Source: /home/neo/wrt-project/custom-feeds/luci-app-v2raya
+SourceName: luci-app-v2raya
+Section: luci
+SourceDateEpoch: 1664092988
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3258
+Filename: luci-app-v2raya_git-22.268.28988-935481d_all.ipk
+Size: 4126
+SHA256sum: f1de75f65f782ccd8a071429405a990b66401c6f76ef5442ccc19e2477076cbb
+Description:  LuCI support for v2rayA
+
+Package: luci-app-vlmcsd
+Version: 1.0
+Depends: libc, vlmcsd
+Source: /home/neo/wrt-project/custom-feeds/luci-app-vlmcsd
+SourceName: luci-app-vlmcsd
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2330
+Filename: luci-app-vlmcsd_1.0_all.ipk
+Size: 3207
+SHA256sum: a30a58fe9402b70c35db349e009f142812424dc1dff56a128d95a9d7bf2617a2
+Description:  LuCI support for KMS
+
+Package: luci-app-vssr
+Version: 1.25
+Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, bash, pdnsd-alt, wget-ssl, lua, luasocket, lua-maxminddb, lua-cjson, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-check, simple-obfs, xray-core, trojan, ipt2socks, kcptun-client, xray-plugin, shadowsocksr-libev-ssr-server, hysteria
+Source: /home/neo/wrt-project/custom-feeds/luci-app-vssr
+SourceName: luci-app-vssr
+Section: luci
+SourceDateEpoch: 1666100751
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5568641
+Filename: luci-app-vssr_1.25_all.ipk
+Size: 5293286
+SHA256sum: 929a7bcabfcd6fe3e3ecdeec40e92624f4e69c96dab95276b4bc82fa350e41b0
+Description:  A New SS/SSR/Xray/Trojan LuCI interface
+
+Package: luci-app-wegare
+Version: 1.5
+Depends: libc, php7, php7-cgi, php7-mod-session, zoneinfo-core, zoneinfo-asia, sshpass, openvpn-openssl, ip-full, openssh-client, httping, screen, python3, coreutils-nohup, libevent2-7, redsocks
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-wegare
+SourceName: luci-app-wegare
+Section: luci
+SourceDateEpoch: 1663525284
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 276159
+Filename: luci-app-wegare_1.5_all.ipk
+Size: 277334
+SHA256sum: cda1b3873ca3945178f8ef632646265d0fe7df8cd898425311a477d15ed186d9
+Description:  LuCI Wegare STL Tool GUI for OpenWrt.
+
+Package: luci-app-wrtbwmon
+Version: 2.0.10
+Depends: libc, wrtbwmon
+Source: /home/neo/wrt-project/custom-feeds/luci-app-wrtbwmon/luci-app-wrtbwmon
+SourceName: luci-app-wrtbwmon
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1639914638
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 8176
+Filename: luci-app-wrtbwmon_2.0.10_all.ipk
+Size: 9086
+SHA256sum: 098ceb89b35d38ef2dfa7fbabfb70722c76911e13ff7cb5f939489992e1f72c5
+Description:  A Luci module that uses wrtbwmon to track bandwidth usage
+
+Package: luci-app-xderm-bin
+Version: 1.9
+Depends: libc, bash, screen, coreutils, coreutils-base64, coreutils-timeout, httping, v2ray-core, corkscrew, procps-ng, procps-ng-ps, git, curl, sshpass, python3-pip, python3, openssh-client, openssl-util, php7, php7-cgi, php7-mod-session, https-dns-proxy, badvpn, trojan
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-xderm-bin
+SourceName: luci-app-xderm-bin
+Section: luci
+SourceDateEpoch: 1663525284
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 77451
+Filename: luci-app-xderm-bin_1.9_all.ipk
+Size: 79149
+SHA256sum: a48c7444fb86d8927125f8f3230216a90d63683785314f864467a38338baede1
+Description:  LuCI version of Xderm Mini GUI with xderm binaries.
+
+Package: luci-app-xderm-limit
+Version: 1.8
+Depends: libc, bash, screen, coreutils, coreutils-base64, coreutils-timeout, httping, v2ray-core, corkscrew, procps-ng, procps-ng-ps, git, curl, sshpass, python3-pip, python3, openssh-client, openssl-util, php7, php7-cgi, php7-mod-session, https-dns-proxy, badvpn, trojan
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/luci-app-xderm-limit
+SourceName: luci-app-xderm-limit
+Section: luci
+SourceDateEpoch: 1663525284
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3567
+Filename: luci-app-xderm-limit_1.8_all.ipk
+Size: 5002
+SHA256sum: e1629472cb2ee3b8aadc38ee378e65393fea2d9635729a73a92eba81f3dcbcc0
+Description:  LuCI version of Xderm Limit with some additions.
+
+Package: luci-app-xray
+Version: 1.21.1-1
+Depends: libc, luci-base, xray-core, dnsmasq, ca-bundle, ipset, iptables, iptables-mod-tproxy
+Source: /home/neo/wrt-project/custom-feeds/luci-app-xray
+SourceName: luci-app-xray
+License: MPLv2
+LicenseFiles: LICENSE
+Section: Custom
+SourceDateEpoch: 1665682151
+Maintainer: yichya <mail@yichya.dev>
+Architecture: all
+Installed-Size: 17541
+Filename: luci-app-xray_1.21.1-1_all.ipk
+Size: 18670
+SHA256sum: 860d78249b9b61def8b2ac82cdbcd4b897cf5e7dec6a96c2dc3b3abece95b93b
+Description:  LuCI Support for Xray (Client-side Rendered).
+
+Package: luci-app-zerotier
+Version: 1.0
+Depends: libc, zerotier
+Source: /home/neo/wrt-project/custom-feeds/luci-app-zerotier
+SourceName: luci-app-zerotier
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3331
+Filename: luci-app-zerotier_1.0_all.ipk
+Size: 4180
+SHA256sum: 3e9baf73aa1b0101db6e907131f2bdd1c0564389925c4cbec3ba3f69689caff7
+Description:  LuCI for Zerotier
+
+Package: luci-lib-fs
+Version: 1.0-1
+Depends: libc, luci-lib-nixio
+Source: /home/neo/wrt-project/custom-feeds/luci-lib-fs
+SourceName: luci-lib-fs
+Section: lang
+SourceDateEpoch: 1646110396
+Architecture: all
+Installed-Size: 2340
+Filename: luci-lib-fs_1.0-1_all.ipk
+Size: 3038
+SHA256sum: 1b6543d87d0dd86e5bba809df47b65c6714a9095b131dac5a89c9f53809856fc
+Description:  luci-lib-fs
+
+Package: luci-proto-mbim
+Version: 200910.68426
+Depends: libc, umbim
+Source: /home/neo/wrt-project/custom-feeds/luci-proto-mbim
+SourceName: luci-proto-mbim
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1167
+Filename: luci-proto-mbim_200910.68426_all.ipk
+Size: 2024
+SHA256sum: f380a5db8366cbd4388f47690354205cef8f0dfe82842182dae15c0a623cf708
+Description:  Support for MBIM
+
+Package: luci-theme-argon
+Version: 2.2.9.4
+Depends: libc, luci-lib-ipkg, curl, jsonfilter
+Source: /home/neo/wrt-project/custom-feeds/luci-theme-argon
+SourceName: luci-theme-argon
+Section: luci
+SourceDateEpoch: 1663556242
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 414532
+Filename: luci-theme-argon_2.2.9.4_all.ipk
+Size: 415192
+SHA256sum: 6a093e748c5e36b28c132fd108c8c05637aa690814f9358224558507bd02a588
+Description:  Argon Theme
+
+Package: luci-theme-edge
+Version: git-22.293.45997-3e1b5e8
+Depends: libc, curl
+Source: /home/neo/wrt-project/custom-feeds/luci-theme-edge
+SourceName: luci-theme-edge
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1666269997
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 228376
+Filename: luci-theme-edge_git-22.293.45997-3e1b5e8_all.ipk
+Size: 229412
+SHA256sum: 1df81a721584b9afdce6ca5ff691666202332bcaba9b6a76a78539ea5745dece
+Description:  Edge Theme
+
+Package: luci-theme-infinityfreedom
+Version: 1.5.20220504-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-theme-infinityfreedom/luci-theme-infinityfreedom
+SourceName: luci-theme-infinityfreedom
+Section: luci
+SourceDateEpoch: 1651717140
+Architecture: all
+Installed-Size: 2120888
+Filename: luci-theme-infinityfreedom_1.5.20220504-1_all.ipk
+Size: 2121825
+SHA256sum: a7ec163d13182911e796e5f936904415924d6dca353cb37e6eded35a81e60505
+Description:  Infinity Freedom Theme
+
+Package: luci-theme-lightblue
+Version: git-22.293.13705-3f81628
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/luci/themes/luci-theme-lightblue
+SourceName: luci-theme-lightblue
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1666237705
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 76309
+Filename: luci-theme-lightblue_git-22.293.13705-3f81628_all.ipk
+Size: 77341
+SHA256sum: 524152ef5a69ebd4bc290b26f95cc67f67a0caf4b9b56606f5bbd527fc2e9df0
+Description:  Bootstrap lightblue Theme
+
+Package: luci-theme-openmptcprouter
+Version: 220131.27223
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/luci-theme-openmptcprouter
+SourceName: luci-theme-openmptcprouter
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 78205
+Filename: luci-theme-openmptcprouter_220131.27223_all.ipk
+Size: 79172
+SHA256sum: a47fad8a1847a9d064893b5c76e48562cdb2401fe4fa692ba55c6f1ad4da171a
+Description:  OpenMPTCProuter Theme (default)
+
+Package: luci-theme-teleofis
+Version: git-22.293.13705-3f81628
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/luci/themes/luci-theme-teleofis
+SourceName: luci-theme-teleofis
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1666237705
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 21864
+Filename: luci-theme-teleofis_git-22.293.13705-3f81628_all.ipk
+Size: 22771
+SHA256sum: 63e8b1f45205d005f7fb18c53b6e988d62c43009ae869b0e515b39b30f2eaecd
+Description:  Bootstrap Teleofis Theme
+
+Package: mactoiface
+Version: 1.0-1
+Depends: libc, bash
+Source: /home/neo/wrt-project/custom-feeds/helmiwrt-packages/mactoiface
+SourceName: mactoiface
+Section: net
+SourceDateEpoch: 1663525284
+Maintainer: Reyre and Helmi Amirudin <helmiau.com>
+Architecture: all
+Installed-Size: 634
+Filename: mactoiface_1.0-1_all.ipk
+Size: 1528
+SHA256sum: 7c41d8152aea03ce0634478f51fb0f40a0951332ca3b868eb86ce2bfc4784c78
+Description:  Lock OpenWrt mac address to preferred interface.
+
+Package: modemband
+Version: 20220808
+Depends: libc, sms-tool
+Source: /home/neo/wrt-project/custom-feeds/luci-app-modemband/modemband
+SourceName: modemband
+Section: net
+SourceDateEpoch: 1665226299
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: all
+Installed-Size: 4520
+Filename: modemband_20220808_all.ipk
+Size: 5233
+SHA256sum: 9094b3203e3215db7caa01ea6ba8a6ffb5f93a1fc0c58d648882d2b9f94625b4
+Description:  Setting LTE bands for selected modems
+
+Package: modeminfo-qmi
+Version: 0.3.0-5
+Depends: libc, modeminfo, qmi-utils
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/modeminfo
+SourceName: modeminfo-qmi
+Section: opt
+SourceDateEpoch: 1666237705
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 2385
+Filename: modeminfo-qmi_0.3.0-5_all.ipk
+Size: 3141
+SHA256sum: 704f39622e2134101eec04b00b0efc37cede6ff7b54c1ae1f8fc6891ab330903
+Description:  QMI addon for modeminfo
+
+Package: modeminfo-serial-dell
+Version: 0.3.0-5
+Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/modeminfo
+SourceName: modeminfo-serial-dell
+Section: opt
+SourceDateEpoch: 1666237705
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1212
+Filename: modeminfo-serial-dell_0.3.0-5_all.ipk
+Size: 2015
+SHA256sum: 83aa4d3f1881d142d2d6b2b581be7539ac9500d056061f91253f2b7779f7ec41
+Description:  Dell DW5821e serial addon for modeminfo
+
+Package: modeminfo-serial-fibocom
+Version: 0.3.0-5
+Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/modeminfo
+SourceName: modeminfo-serial-fibocom
+Section: opt
+SourceDateEpoch: 1666237705
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1203
+Filename: modeminfo-serial-fibocom_0.3.0-5_all.ipk
+Size: 2020
+SHA256sum: d08a3b736c9fc8d560ffe878281cbda402252149ff1e9ed5d48be442d644ac37
+Description:  FIBOCOM NL668/678 serial addon for modeminfo
+
+Package: modeminfo-serial-huawei
+Version: 0.3.0-5
+Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/modeminfo
+SourceName: modeminfo-serial-huawei
+Section: opt
+SourceDateEpoch: 1666237705
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1318
+Filename: modeminfo-serial-huawei_0.3.0-5_all.ipk
+Size: 2123
+SHA256sum: 0885800b25b10d062057820bf1ce6045bbecb65ba0503d9891e062e67bb9d17b
+Description:  HUAWEI serial addon for modeminfo
+
+Package: modeminfo-serial-quectel
+Version: 0.3.0-5
+Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/modeminfo
+SourceName: modeminfo-serial-quectel
+Section: opt
+SourceDateEpoch: 1666237705
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1256
+Filename: modeminfo-serial-quectel_0.3.0-5_all.ipk
+Size: 2056
+SHA256sum: d996f4652279d84e33bf725cc17b94a801d292669802dfdf72cf832cb1ed1600
+Description:  QUECTEL serial addon for modeminfo
+
+Package: modeminfo-serial-sierra
+Version: 0.3.0-5
+Depends: libc, modeminfo, kmod-usb-serial-qualcomm, atinout
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/modeminfo
+SourceName: modeminfo-serial-sierra
+Section: opt
+SourceDateEpoch: 1666237705
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1199
+Filename: modeminfo-serial-sierra_0.3.0-5_all.ipk
+Size: 2009
+SHA256sum: 02664e63d3f784e0eaa1173541d3935b6657fdd9766f45ba7df7254ebb9cdaba
+Description:  Sierra Wireless EM7455 serial addon for modeminfo
+
+Package: modeminfo-serial-simcom
+Version: 0.3.0-5
+Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/modeminfo
+SourceName: modeminfo-serial-simcom
+Section: opt
+SourceDateEpoch: 1666237705
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1233
+Filename: modeminfo-serial-simcom_0.3.0-5_all.ipk
+Size: 2036
+SHA256sum: d553809c9418435d5a882ad2b5194991c939e2df9f647b4c9c0ce2a1f24e8301
+Description:  SIMCOM serial addon for modeminfo
+
+Package: modeminfo-serial-telit
+Version: 0.3.0-5
+Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/modeminfo
+SourceName: modeminfo-serial-telit
+Section: opt
+SourceDateEpoch: 1666237705
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1138
+Filename: modeminfo-serial-telit_0.3.0-5_all.ipk
+Size: 1958
+SHA256sum: 8487b04f8cfdbf2369384f61681275c9337c99425d7f33359d81302e5b0f02f3
+Description:  TELIT LN940/T77W678/HP4220 serial addon for modeminfo
+
+Package: modeminfo-serial-xmm
+Version: 0.3.0-5
+Depends: libc, modeminfo, kmod-usb-acm, atinout
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/modeminfo
+SourceName: modeminfo-serial-xmm
+Section: opt
+SourceDateEpoch: 1666237705
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1528
+Filename: modeminfo-serial-xmm_0.3.0-5_all.ipk
+Size: 2353
+SHA256sum: 3d542a0da47a20cbc64940b4057bdebc0b1c128f60ad8a76350686e5846215b4
+Description:  FIBOCOM L850/L860 Intel XMM chips serial addon for modeminfo
+
+Package: modeminfo
+Version: 0.3.0-5
+Depends: libc, comgt
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1666237705
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 3389
+Filename: modeminfo_0.3.0-5_all.ipk
+Size: 4171
+SHA256sum: 9e281864d6a5e6f2235736ea8756c98982edaa7aa6fc75b6202be3bbd8bd44dd
+Description:  Signal information for 3G/LTE dongle
+
+Package: pingcontrol
+Version: 1-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/pingcontrol
+SourceName: pingcontrol
+Section: utils
+SourceDateEpoch: 1666237705
+Architecture: all
+Installed-Size: 1586
+Filename: pingcontrol_1-1_all.ipk
+Size: 2354
+SHA256sum: 1938cef1074d26521ac7c0907f42693b2f737b80cc69f40106c0a433fa7f6807
+Description:  This package contains a utility for managing the interface using ping requests.
+
+Package: sagernet-example
+Version: 5.0.17-2022-07-30-26e36b1c-1
+Depends: libc, sagernet-core
+Conflicts: v2ray-example
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/sagernet-core
+SourceName: sagernet-example
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1666163234
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 571
+Filename: sagernet-example_5.0.17-2022-07-30-26e36b1c-1_all.ipk
+Size: 1501
+SHA256sum: c62eb4f0dabe28f71b335bdf07f602060a4245b1a64959289c038605c92c3e4a
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for sagernet-core.
+
+Package: sagernet-extra
+Version: 5.0.17-2022-07-30-26e36b1c-1
+Depends: libc, sagernet-core
+Conflicts: v2ray-extra
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/sagernet-core
+SourceName: sagernet-extra
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1666163234
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 298649
+Filename: sagernet-extra_5.0.17-2022-07-30-26e36b1c-1_all.ipk
+Size: 299448
+SHA256sum: f4805fd50d9d06f67490f997b6b7552f953105c3359f894ee42df5665ef8077f
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes extra resources for sagernet-core.
+
+Package: telegrambot
+Version: 0.0.4-1
+Depends: libc, curl
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/telegrambot
+SourceName: telegrambot
+Section: opt
+SourceDateEpoch: 1666237705
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 5533
+Filename: telegrambot_0.0.4-1_all.ipk
+Size: 6295
+SHA256sum: 9377b9355a51072383233618f95f605dffc1d86df2e71ec238d224efce903e5e
+Description:  Telegram bot for router with firmware Lede/Openwrt.
+
+Package: usb-storage
+Version: 1.000-1
+Depends: libc, ntfs-3g, fdisk, kmod-usb-storage, kmod-fs-ext4, kmod-fs-vfat, kmod-nls-cp437, kmod-nls-iso8859-1, kmod-nls-utf8, block-mount, kmod-fs-exfat, kmod-fs-hfs, hd-idle
+Source: /home/neo/wrt-project/custom-feeds/usb-storage
+SourceName: usb-storage
+Section: utils
+SourceDateEpoch: 1646110396
+Maintainer: Created by DM/makefile by Cobia@whirlpool
+Architecture: all
+Installed-Size: 3039
+Filename: usb-storage_1.000-1_all.ipk
+Size: 3874
+SHA256sum: 7a7167aae216825a0d4a2ba00a05e987df16547294bab4a0f7f86897c3336110
+Description:  Helper scripts to install USB Storage
+
+Package: v2ray-example
+Version: 5.1.0-1
+Depends: libc, v2ray-core
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/v2ray-core
+SourceName: v2ray-example
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1666163234
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 571
+Filename: v2ray-example_5.1.0-1_all.ipk
+Size: 1461
+SHA256sum: 0e03600685de89e15a8f45835ab6a9b479e593f3d5937b48c50318e3cec49622
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes example configuration files for v2ray-core.
+
+Package: v2ray-extra
+Version: 5.1.0-1
+Depends: libc, v2ray-core
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/v2ray-core
+SourceName: v2ray-extra
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1666163234
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 298649
+Filename: v2ray-extra_5.1.0-1_all.ipk
+Size: 299400
+SHA256sum: 71f58a7c8a96704cf99f7d066f5c036c98c10ca6af558092a3b57a06b55d3d03
+Description:  Project V is a set of network tools that help you to build your own computer network.
+ It secures your network connections and thus protects your privacy.
+ 
+ This includes extra resources for v2ray-core.
+
+Package: v2ray-geoip
+Version: 202209080101-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/v2ray-geodata
+SourceName: v2ray-geoip
+License: CC-BY-SA-4.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1666163234
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 2218602
+Filename: v2ray-geoip_202209080101-1_all.ipk
+Size: 1951473
+SHA256sum: 013ada8e7e3060489bf9c6aee65cee5cc2ece386866a1114b1d8518ec66cc470
+Description:  GeoIP List for V2Ray
+
+Package: v2ray-geosite
+Version: 20220908131416-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall/v2ray-geodata
+SourceName: v2ray-geosite
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1666163234
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 380009
+Filename: v2ray-geosite_20220908131416-1_all.ipk
+Size: 379685
+SHA256sum: ebc4fb87832451d918b767bb75b6195d1f34e44c1a0c1e210a2eece8b5e0c76d
+Description:  Geosite List for V2Ray
+
+Package: webconsole
+Version: 1.000-1
+Depends: libc
+Source: /home/neo/wrt-project/custom-feeds/webconsole
+SourceName: webconsole
+Section: utils
+SourceDateEpoch: 1646110396
+Maintainer: Created by DM/makefile by Cobia@whirlpool
+Architecture: all
+Installed-Size: 1574
+Filename: webconsole_1.000-1_all.ipk
+Size: 2347
+SHA256sum: 5840d297cc442b8bbc957ae15d3e0f9455d844c5d5192be983ca2422669bfbe9
+Description:  Helper scripts to install scripts for Web Console
+
+Package: wrtbwmon
+Version: 1.2.1-3
+Depends: libc, iptables
+Source: /home/neo/wrt-project/custom-feeds/wrtbwmon/wrtbwmon
+SourceName: wrtbwmon
+Section: net
+SourceDateEpoch: 1606876717
+Architecture: all
+Installed-Size: 7185
+Filename: wrtbwmon_1.2.1-3_all.ipk
+Size: 7974
+SHA256sum: 5571c8b12c7055eff760eadb039f51cb420dab234e678da4f4cf85fcc5683851
+Description:  An CERNET client daemon,
+ Most usually used in China collages.
+
+Package: xmm-modem
+Version: 0.0.1-4
+Depends: libc, comgt, kmod-usb-acm, kmod-usb-net-cdc-ncm
+Source: /home/neo/wrt-project/custom-feeds/modemfeed/packages/net/xmm-modem
+SourceName: xmm-modem
+Section: opt
+SourceDateEpoch: 1666237705
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 1863
+Filename: xmm-modem_0.0.1-4_all.ipk
+Size: 2683
+SHA256sum: 3b8d502132c12ea264d745ae7440ce115f047156cbef8765efea5c35ebb3785b
+Description:  Simple connect to cellular for Fibocom L850/L860 module (Intel XMM LTE-A 7360/7560)
+

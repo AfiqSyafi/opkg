@@ -1,0 +1,75 @@
+Package: luci-app-bypass
+Version: 1.2
+Depends: libc, ipset, kmod-ipt-nat, ip-full, iptables-mod-tproxy, lua-neturl, dnsmasq-full, smartdns, coreutils, coreutils-base64, curl, tcping, chinadns-ng, lua, luci-compat, luci-lib-ipkg, unzip, lua-maxminddb
+Source: /home/neo/wrt-project/custom-feeds/openwrt-bypass/luci-app-bypass
+SourceName: luci-app-bypass
+Section: luci
+SourceDateEpoch: 1665426161
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2647051
+Filename: luci-app-bypass_1.2_all.ipk
+Size: 2465106
+SHA256sum: 18c0a8cd90673a4bc7458ac20cb1e3e90ef091e6069ac73fe9dc3506e422c3b8
+Description:  SS/SSR/Xray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-passwall2
+Version: 1.4
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, v2ray-geoip, v2ray-geosite, unzip
+Source: /home/neo/wrt-project/custom-feeds/openwrt-passwall2/luci-app-passwall2
+SourceName: luci-app-passwall2
+Section: luci
+SourceDateEpoch: 1666175037
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 183866
+Filename: luci-app-passwall2_1.4_all.ipk
+Size: 185003
+SHA256sum: f8e5bbf2ff0d80617572b8e0aa8eb624b2fe670344df1c310abbc706c3706b53
+Description:  LuCI support for PassWall 2
+
+Package: luci-app-passwall
+Version: 4.55
+Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, dns2socks, dns2tcp, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, unzip
+Source: /home/neo/wrt-project/custom-feeds/luci-app-passwall/luci-app-passwall
+SourceName: luci-app-passwall
+Section: luci
+SourceDateEpoch: 1666256530
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 972072
+Filename: luci-app-passwall_4.55_all.ipk
+Size: 972627
+SHA256sum: c31fd43aa4709bdc3ee44bea839a0df75dd301b1271dd60e83cb103f2560ebe3
+Description:  LuCI support for PassWall
+
+Package: luci-app-ssr-plus
+Version: 186
+Depends: libc, coreutils, coreutils-base64, dns2socks, dns2tcp, dnsmasq-full, ipset, kmod-ipt-nat, ip-full, iptables, iptables-mod-tproxy, lua, lua-neturl, libuci-lua, microsocks, tcping, resolveip, shadowsocksr-libev-ssr-check, uclient-fetch
+Source: /home/neo/wrt-project/custom-feeds/luci-app-ssr-plus
+SourceName: luci-app-ssr-plus
+Section: luci
+SourceDateEpoch: 1646110396
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 196531
+Filename: luci-app-ssr-plus_186_all.ipk
+Size: 196689
+SHA256sum: c04fb2b58fa9f8cc16ef27e7b39751603580b5d8cade67c768aa4f0446088881
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-app-vssr
+Version: 1.25
+Depends: libc, ipset, ip-full, iptables-mod-tproxy, dnsmasq-full, coreutils, coreutils-base64, bash, pdnsd-alt, wget-ssl, lua, luasocket, lua-maxminddb, lua-cjson, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, shadowsocksr-libev-ssr-check, simple-obfs
+Source: /home/neo/wrt-project/custom-feeds/luci-app-vssr
+SourceName: luci-app-vssr
+Section: luci
+SourceDateEpoch: 1666100751
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 5568641
+Filename: luci-app-vssr_1.25_all.ipk
+Size: 5293242
+SHA256sum: cc0fc66fceb385ed807b0a714fb9576c59a636bfac3f3c9e085ea70c1bcdd643
+Description:  A New SS/SSR/Xray/Trojan LuCI interface
+
